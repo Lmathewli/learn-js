@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run main.js",
+            "name": "Run app.js",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/main.js",
+            "program": "${workspaceRoot}/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",

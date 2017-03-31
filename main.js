@@ -35,3 +35,10 @@ var rs = files.createReadStream('test.txt');
 var ws = files.createWriteStream('copied.txt');
 
 rs.pipe(ws);
+
+
+if (typeof(window) === 'undefined') {
+    console.log('node.js');
+} else {
+    console.log('browser');
+}
